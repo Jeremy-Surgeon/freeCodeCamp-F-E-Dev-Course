@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CatPhotApp</title>
+    </head>
+    <body>
+        <h2>CatPhotoApp</h2>
+        <h3>Cat Photos</h3>
+        <main>
+            <!-- TODO: Add link to cat photos -->
+            <p>Click here to view more <a href="#" target="_blank">cat photos</a>.</p>
+            <a href="#"><img src="https://cdn.pixabay.com/photo/2024/03/08/09/55/cat-8620369_1280.png" alt= "A cute grey cat lying on a pillow"></a>
+            <h3>Cat Lists</h3>
+            <div class="lists">
+                <p>Things cats <em>love</em>;</p>
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <img src="lasagna.jpg" alt="Lasagna">
+                <p>Things cats <strong>hate</strong>:</p>
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+            </div>
+                <img src="cats.jpg" alt="Cats">
+                <form action="/submit-cat-photo">
+                    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label><br>
+
+                    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+
+                    <label for="loving"><input id="loving" type="checkbox" name="personality" checked> <Leg></Leg>Loving</label><br>
+
+                    <label for="lazy"><input id="lazy" type="checkbox" name="personality"> <Leg></Leg>Lazy</label><br>
+
+                    <label for="energetic"><input id="energetic" type="checkbox" name="personality"> <Leg></Leg>Energetic</label><br>
+
+                    <input type="text" placeholder="cat photo URL" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </ol>
+        </main>
+        <footer>
+            <p><small>No Copyright</small></p>
+        </footer>
+    </body>
+</html>
